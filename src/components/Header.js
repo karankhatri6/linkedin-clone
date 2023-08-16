@@ -55,7 +55,7 @@ const Header = (props) => {
             </NavList>
             <User>
               <a>
-                <img src="/images/user.svg" alt="" />
+                <img className="userImage" src="/images/user.svg" alt="" />
                 <span>Me</span>
                 <img src="/images/down-icon.svg" alt="" />
               </a>
@@ -231,7 +231,7 @@ const User = styled(NavList)`
     border-radius: 50%;
   }
 
-  a > img {
+  .userImage {
     width: 24px;
     height: 24px;
     border-radius: 50%;
