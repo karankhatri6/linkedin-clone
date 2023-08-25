@@ -144,6 +144,10 @@ const Widget = styled.div`
         }
       }
     }
+    img {
+      width: 24px;
+      height: 24px;
+    }
   }
 
   svg {
