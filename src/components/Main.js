@@ -5,23 +5,23 @@ const Main = (props) => {
         <Container>
            <ShareBox>
             <div>
-              <img src="/images/user.svg" />
+              <img src="/images/user.svg" alt=""/>
               <button>Start a post</button>
             </div>
 
             <div>
               <button>
-                <img src="/images/media-icon.svg" />
+                <img src="/images/media-icon.svg" alt=""/>
                 <span>Media</span>
               </button>
 
               <button>
-                <img src="/images/event-icon.svg" />
+                <img src="/images/event-icon.svg" alt=""/>
                 <span>Event</span>
               </button>
 
               <button>
-                <img src="/images/article-icon.svg" />
+                <img src="/images/article-icon.svg" alt=""/>
                 <span>Write article</span>
               </button>
             </div>
@@ -30,7 +30,7 @@ const Main = (props) => {
             <Article>
               <SharedActor>
                 <a>
-                  <img src="/images/user.svg" />
+                  <img src="/images/user.svg" alt=""/>
                   <div>
                     <span>Title</span>
                     <span>Info</span>
@@ -38,21 +38,21 @@ const Main = (props) => {
                   </div>
                 </a>
                 <button>
-                  <img src="/images/ellipsis.svg" />
+                  <img src="/images/ellipsis.svg" alt=""/>
                 </button>
               </SharedActor>
               <Description>Description</Description>
               <SharedImg>
                 <a>
-                  <img src="/images/shared-image.jpg" />
+                  <img src="/images/shared-image.jpg" alt=""/>
                 </a>
               </SharedImg>
               <SocialCounts>
                 <li>
                   <button>
-                    <img src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" />
-                    <img src="https://static.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" />
-                    <img src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" />
+                    <img src="https://static.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt=""/>
+                    <img src="https://static.licdn.com/sc/h/b1dl5jk88euc7e9ri50xy5qo8" alt=""/>
+                    <img src="https://static.licdn.com/sc/h/cpho5fghnpme8epox8rdcds22" alt=""/>
                     <span>75</span>
                   </button>
                 </li>
@@ -62,19 +62,19 @@ const Main = (props) => {
               </SocialCounts>
               <SocialActions>
                 <button>
-                  <img src="/images/like-icon.svg"/>
+                  <img src="/images/like-icon.svg" alt=""/>
                   <span>Like</span>
                 </button>
                 <button>
-                  <img src="/images/comments-icon.svg"/>
+                  <img src="/images/comments-icon.svg" alt=""/>
                   <span>Comments</span>
                 </button>
                 <button>
-                  <img src="/images/repost-icon.svg"/>
+                  <img src="/images/repost-icon.svg" alt=""/>
                   <span>Repost</span>
                 </button>
                 <button>
-                  <img src="/images/send-icon.svg"/>
+                  <img src="/images/send-icon.svg" alt=""/>
                   <span>Send</span>
                 </button>
               </SocialActions>
