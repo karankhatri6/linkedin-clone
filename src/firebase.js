@@ -5,12 +5,12 @@ import 'firebase/compat/storage';
 
 // Paste your firebase details below:
 const firebaseConfig = {
-  apiKey: "AIzaSyBcEkZ8UpkEg7h_iNQy4PRTF0jzaxdS_UI",
-  authDomain: "linkedin-clone-9bb89.firebaseapp.com",
-  projectId: "linkedin-clone-9bb89",
-  storageBucket: "linkedin-clone-9bb89.appspot.com",
-  messagingSenderId: "22255380939",
-  appId: "1:22255380939:web:587992d2e20ee77c812e4e"
+  apiKey: "AIzaSyDJtT6PCrIVJk6H12QjfbN59JCD6NbAJMM",
+  authDomain: "clone-app-4057f.firebaseapp.com",
+  projectId: "clone-app-4057f",
+  storageBucket: "clone-app-4057f.appspot.com",
+  messagingSenderId: "327659153305",
+  appId: "1:327659153305:web:4ab942afd0012b45e79508"
 };
 
 
